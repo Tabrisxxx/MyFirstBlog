@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- citation describe: part of CSS uses W3.CSS-->
+<html>
+<title>A BBQ restaurant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+<link rel="stylesheet" href="./style.css">
+<style>
+
+body, html {height: 100%}
+.bgimg {
+  background-image: url('./image/img8.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body>
+  <!-- Navbar -->
+  <div class="Navbar">
+       <a href="./home.html" class="bar-item w3-button padding-large">HOME</a>
+       <div class="w3-dropdown-hover">
+       <button class="padding-large w3-button">RESTAURANTS</button>
+       <div class="w3-dropdown-content">
+         <a href="./subpage1.html" class="bar-item w3-button">Chinese Hotpot</a>
+         <a href="./subpage2.html" class="bar-item w3-button">Japanese Sushi</a>
+         <a href="./subpage3.html" class="bar-item w3-button">Korean BBQ</a>
+       </div>
+     </div>
+  </div>
+
+<!-- background picture -->
+<div class="bgimg" style="color:#fff; position:relative">
+  <div class="middle" style="font-size:64px">
+    <!-- color flat ui -->
+    <div class="w3-flat-pumpkin">
+    <p class="left">Kang Ho-dong Baekjeong</p>
+    </div>
+  </div>
+
+  <div class="w3-container" style="position:absolute; left:0; bottom:0">
+    <p class="xxlarge">Monday - Sunday 11-1am</p>
+    <!-- a link to googlemap of this address -->
+    <p style="font-size: 18px"><a href="https://www.google.com/maps/place/3465+W+6th+St,+Los+Angeles,+CA+90020/@34.0637541,-118.2994649,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2c7b913c9714f:0x1edef4ed90b177be!8m2!3d34.0637541!4d-118.2972762" target="_blank">
+      3465 W 6th St, Los Angeles, CA 90020</a></p>
+    <!-- a link to yelp -->
+    <p style="font-size: 18px">Full menu and reviews on the <a href ="https://www.yelp.com/biz/kang-ho-dong-baekjeong-los-angeles-4" target="_blank">Yelp</a><p>
+  </div>
+</div>
+
+</body>
+</html>

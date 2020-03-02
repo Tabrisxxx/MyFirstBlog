@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- citation describe: part of CSS uses W3.CSS-->
+<html>
+<title>A sushi restaurant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+<link rel="stylesheet" href="./style.css">
+<style>
+
+body, html {height: 100%}
+.bgimg {
+  background-image: url('./image/img6.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body>
+  <!-- Navbar -->
+  <div class="Navbar">
+       <a href="./home.html" class="bar-item w3-button padding-large">HOME</a>
+       <div class="w3-dropdown-hover">
+       <button class="padding-large w3-button">RESTAURANTS</button>
+       <div class="w3-dropdown-content">
+         <a href="./subpage1.html" class="bar-item w3-button">Chinese Hotpot</a>
+         <a href="./subpage2.html" class="bar-item w3-button">Japanese Sushi</a>
+         <a href="./subpage3.html" class="bar-item w3-button">Korean BBQ</a>
+       </div>
+     </div>
+  </div>
+
+<!-- background picture -->
+<div class="bgimg" style="color:#fff; position:relative">
+  <div class="middle" style="font-size:64px">
+    <!-- color w3 flat ui-->
+    <div class="w3-flat-midnight-blue">
+    <p class="left">Oo Toro Sushi Restaurant</p>
+    </div>
+  </div>
+
+  <div class="w3-container" style="position:absolute; left:0; bottom:0">
+    <p class="xxlarge">Tuesday - Saturday 11-22</p>
+    <!-- a link to googlemap of this address -->
+    <p style="font-size: 18px"><a href="https://www.google.com/maps/place/2222+Michelson+Dr+%23246,+Irvine,+CA+92612/data=!4m2!3m1!1s0x80dcdef344635783:0x7f232c16ba7510c9?sa=X&ved=2ahUKEwj15v6JjPrnAhUPSK0KHWXZCvYQ8gEwAHoECAsQAQ" target="_blank">
+      2222 Michelson Dr, Ste 246, Irvine, CA 92612</a></p>
+    <!-- a link to yelp -->
+    <p style="font-size: 18px">Full menu and reviews on the <a href ="https://www.yelp.com/biz/oo-toro-sushi-irvine" target="_blank">Yelp</a><p>
+  </div>
+</div>
+
+</body>
+</html>
